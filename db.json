@@ -1,10 +1,10 @@
 {
   "noticias": [
     {
-        "titulo": "Noticia 1",
-        "descricao": "Descrição 1",
-        "id": "1"
-      },
+      "titulo": "Noticia 1",
+      "descricao": "Descrição 1",
+      "id": "1"
+    },
     {
       "titulo": "Noticia 2",
       "descricao": "Descrição 2",
@@ -19,6 +19,11 @@
       "id": "4",
       "titulo": "Noticia 4",
       "descricao": "Descrição"
+    },
+    {
+      "id": "3480",
+      "titulo": "",
+      "descricao": ""
     }
   ]
 }
