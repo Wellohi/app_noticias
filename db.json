@@ -1,0 +1,24 @@
+{
+  "noticias": [
+    {
+        "titulo": "Noticia 1",
+        "descricao": "Descrição 1",
+        "id": "1"
+      },
+    {
+      "titulo": "Noticia 2",
+      "descricao": "Descrição 2",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "titulo": "Noticia 3",
+      "descricao": "Descrição"
+    },
+    {
+      "id": "4",
+      "titulo": "Noticia 4",
+      "descricao": "Descrição"
+    }
+  ]
+}

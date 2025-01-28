@@ -1,0 +1,28 @@
+<h2 class="m-4">Lista de Noticias</h2>
+
+<table class="table m-3">
+    <thead>
+        <tr>
+            <th scope="col">Número da Noticia</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Excluir Noticia</th>
+            <th scope="col">Editar Noticia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let noticia of noticiaData">
+            <td scope="row">{{noticia.id}}</td>
+            <td scope="row">{{noticia.titulo}}</td>
+            <td scope="row">{{noticia.descricao}}</td>
+            <td scope="row">
+                <button (click)="deletarNoticia(noticia.id)">Excluir</button>
+            </td>
+            <td>
+                <button>
+                    <a routerLink="/editar-noticia/{{noticia.id}}" routerLinkActive="text-dark bg-light">Editar</a>
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>

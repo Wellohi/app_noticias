@@ -1,0 +1,22 @@
+.navegacao{
+    padding: 1rem; 
+    background-color:  #302e30a8;
+    color: #fff;
+    border-bottom: solid 2px #6e6b7a;
+    width: 100%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.nav-item{
+    margin: auto 0;
+}
+
+.nav-item a{
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #1b1b1bda;
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+}

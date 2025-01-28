@@ -1,0 +1,20 @@
+<h2 class="m-4">Editar noticia</h2>
+
+<div *ngIf="mensagem" class="alert alert-success" role="alert">
+    <strong>Noticia editada com sucesso</strong>
+    <button (click)="removeMensagem()" type="button" class="btn btn-light m-1" data-bs-dismiss="alert" aria-label="Close">Fechar</button>
+</div>
+
+<form [formGroup]="editarNoticia" (ngSubmit)="EditarNoticia()" class="m-4">
+    <div class="mb-3">
+        <label class="form-label">Título</label>
+        <input type="text" class="form-control" placeholder="Editar Título" formControlName="titulo">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Descrição</label>
+        <input type="text" class="form-control" placeholder="Editar Descrição" formControlName="descricao">
+    </div>  
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+
+</form>
